@@ -1,0 +1,127 @@
+/* 
+    Document   : banner generator
+    Created on : Aug 14, 2011, 10:13:36 PM
+    Author     : Carlos
+    Description:
+        Banner generator stylesheet.
+*/
+
+/* 
+   TODO documentation all files
+   TODO test on all browsers and devices
+*/
+
+html, body { 
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+/*:focus {
+    outline: 0;
+}*/
+
+body {
+    background: #E1E1E1;
+    line-height: 1;
+    font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    height: 70px;
+    border: 1px solid #e0cfc2;
+    margin-top: -1px;
+    background-color: #f4f0ec;
+}
+
+#logo {
+    text-align: center;
+    position: relative;
+    top: 5px;
+    width: 350px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#logo img {
+    position: absolute;
+}*/
+
+#title {
+    line-height: 64px;
+    font-size: 20px;
+}
+
+#main {
+    height: 450px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#tabs {
+    height: inherit;
+}
+
+#footer {
+    
+}
+
+#banner {
+    text-align: center;
+}
+
+#banner img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.option {
+    padding: 4px;
+}
+
+input.text, textarea.text { width:95%; padding: .4em; }
+
+textarea#result { height: 90px; background: #fff; }
+
+#size, input#text, #border, #generate, input#url, #result, #font_size {
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+
+#red, #green, #blue, #red2, #green2, #blue2, #red3, #green3, #blue3 {
+        float: left;
+        clear: left;
+        width: 300px;
+        margin: 15px;
+}
+#swatch, #swatch2, #swatch3 {
+        width: 120px;
+        height: 100px;
+        margin-top: 26px;
+        margin-left: 480px;
+        background-image: none;
+}
+#swatch2 {
+        line-height: 100px;
+        text-align: center;
+}
+#red .ui-slider-range, #red2 .ui-slider-range, #red3 .ui-slider-range { background: #ef2929; }
+#red .ui-slider-handle, #red2 .ui-slider-handle, #red3 .ui-slider-handle { border-color: #ef2929; }
+#green .ui-slider-range, #green2 .ui-slider-range, #green3 .ui-slider-range { background: #8ae234; }
+#green .ui-slider-handle, #green2 .ui-slider-handle, #green3 .ui-slider-handle { border-color: #8ae234; }
+#blue .ui-slider-range, #blue2 .ui-slider-range, #blue3 .ui-slider-range { background: #729fcf; }
+#blue .ui-slider-handle, #blue2 .ui-slider-handle, #blue3 .ui-slider-handle { border-color: #729fcf; }
